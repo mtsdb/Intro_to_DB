@@ -18,7 +18,7 @@ CREATE TABLE Authors (
 CREATE TABLE Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(215) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
+    email VARCHAR(215) UNIQUE NOT NULL,
     address TEXT
 );
 
